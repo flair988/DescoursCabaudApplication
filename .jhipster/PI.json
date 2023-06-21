@@ -1,5 +1,6 @@
 {
   "applications": "*",
+  "changelogDate": "20230621030321",
   "entityTableName": "pi",
   "fields": [
     {
@@ -80,5 +81,6 @@
     }
   ],
   "name": "PI",
-  "relationships": []
+  "relationships": [],
+  "searchEngine": "no"
 }

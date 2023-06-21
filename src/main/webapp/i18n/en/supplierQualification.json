@@ -1,0 +1,31 @@
+{
+  "descoursCabaudApplicationApp": {
+    "supplierQualification": {
+      "home": {
+        "title": "Supplier Qualifications",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Supplier Qualification",
+        "createOrEditLabel": "Create or edit a Supplier Qualification",
+        "notFound": "No Supplier Qualifications found"
+      },
+      "created": "A new Supplier Qualification is created with identifier { param }",
+      "updated": "A Supplier Qualification is updated with identifier { param }",
+      "deleted": "A Supplier Qualification is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Supplier Qualification { id }?"
+      },
+      "detail": {
+        "title": "Supplier Qualification"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "cateGory": "Cate Gory",
+      "supplier": "Supplier",
+      "date": "Date",
+      "supplierStatus": "Supplier Status",
+      "evaluationStatus": "Evaluation Status",
+      "businessLiabilityBopeScore": "Business Liability Bope Score",
+      "comments": "Comments"
+    }
+  }
+}

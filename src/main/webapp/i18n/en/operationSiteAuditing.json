@@ -1,0 +1,41 @@
+{
+  "descoursCabaudApplicationApp": {
+    "operationSiteAuditing": {
+      "home": {
+        "title": "Operation Site Auditings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Operation Site Auditing",
+        "createOrEditLabel": "Create or edit a Operation Site Auditing",
+        "notFound": "No Operation Site Auditings found"
+      },
+      "created": "A new Operation Site Auditing is created with identifier { param }",
+      "updated": "A Operation Site Auditing is updated with identifier { param }",
+      "deleted": "A Operation Site Auditing is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Operation Site Auditing { id }?"
+      },
+      "detail": {
+        "title": "Operation Site Auditing"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "cateGory": "Cate Gory",
+      "supplier": "Supplier",
+      "operationSite": "Operation Site",
+      "linkSupplierFactory": "Link Supplier Factory",
+      "typeOfSite": "Type Of Site",
+      "auditingTool": "Auditing Tool",
+      "auditingDate": "Auditing Date",
+      "csrResult": "Csr Result",
+      "qualityProductionResult": "Quality Production Result",
+      "businessLiabilityResult": "Business Liability Result",
+      "comments": "Comments",
+      "issueDate": "Issue Date",
+      "dueDate": "Due Date",
+      "closedDate": "Closed Date",
+      "closed": "Closed",
+      "status": "Status",
+      "capComments": "Cap Comments"
+    }
+  }
+}

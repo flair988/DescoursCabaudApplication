@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Item.
+    -->
+    <changeSet id="20230621030325-1" author="jhipster">
+        <createTable tableName="item">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="item_status" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="item_france_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="kingdee_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="item_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="codeag" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="technical_documents" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="certification" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="opportunity_sheet" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="packing_type" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="sale_package_image" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="carton_length_milimeter" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="carton_height_milimeter" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="barcode" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="carton_weight_kg" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="carton_weight_gr" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="carton_width_milimeter" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="product_description_and_fonctionalities" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="drawing" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="user_manual" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="pallet_size" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="type_of_marketing" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="product_pic" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="label" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="comment" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="product_taxonomy" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="net_weight" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="gross_weight" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="unit_of_weight" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="carton_volume_milimeter" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20230621030325-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/item.csv"
+                  separator=";"
+                  tableName="item"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="item_status" type="string"/>
+            <column name="item_france_name" type="string"/>
+            <column name="kingdee_id" type="string"/>
+            <column name="item_name" type="string"/>
+            <column name="codeag" type="string"/>
+            <column name="technical_documents" type="string"/>
+            <column name="certification" type="string"/>
+            <column name="opportunity_sheet" type="string"/>
+            <column name="packing_type" type="string"/>
+            <column name="sale_package_image" type="string"/>
+            <column name="carton_length_milimeter" type="string"/>
+            <column name="carton_height_milimeter" type="string"/>
+            <column name="barcode" type="string"/>
+            <column name="carton_weight_kg" type="string"/>
+            <column name="carton_weight_gr" type="string"/>
+            <column name="carton_width_milimeter" type="string"/>
+            <column name="product_description_and_fonctionalities" type="string"/>
+            <column name="drawing" type="string"/>
+            <column name="user_manual" type="string"/>
+            <column name="pallet_size" type="string"/>
+            <column name="type_of_marketing" type="string"/>
+            <column name="product_pic" type="string"/>
+            <column name="label" type="string"/>
+            <column name="comment" type="string"/>
+            <column name="product_taxonomy" type="string"/>
+            <column name="net_weight" type="string"/>
+            <column name="gross_weight" type="string"/>
+            <column name="unit_of_weight" type="string"/>
+            <column name="carton_volume_milimeter" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

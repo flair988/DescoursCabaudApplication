@@ -1,0 +1,40 @@
+{
+  "descoursCabaudApplicationApp": {
+    "salesDelivery": {
+      "home": {
+        "title": "Sales Deliveries",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Sales Delivery",
+        "createOrEditLabel": "Create or edit a Sales Delivery",
+        "notFound": "No Sales Deliveries found"
+      },
+      "created": "A new Sales Delivery is created with identifier { param }",
+      "updated": "A Sales Delivery is updated with identifier { param }",
+      "deleted": "A Sales Delivery is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Sales Delivery { id }?"
+      },
+      "detail": {
+        "title": "Sales Delivery"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "kingdeeId": "Kingdee Id",
+      "customer": "Customer",
+      "orderDate": "Order Date",
+      "loadingPort": "Loading Port",
+      "dischargePort": "Discharge Port",
+      "transportMode": "Transport Mode",
+      "incoterm": "Incoterm",
+      "forwarder": "Forwarder",
+      "eta": "Eta",
+      "etd": "Etd",
+      "containerType": "Container Type",
+      "containerSize": "Container Size",
+      "remark": "Remark",
+      "kingdeeUniqueId": "Kingdee Unique Id",
+      "docStatus": "Doc Status",
+      "cateGory": "Cate Gory"
+    }
+  }
+}

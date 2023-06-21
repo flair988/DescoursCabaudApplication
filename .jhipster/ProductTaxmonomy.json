@@ -1,5 +1,6 @@
 {
   "applications": "*",
+  "changelogDate": "20230621030334",
   "entityTableName": "product_taxmonomy",
   "fields": [
     {
@@ -36,5 +37,6 @@
     }
   ],
   "name": "ProductTaxmonomy",
-  "relationships": []
+  "relationships": [],
+  "searchEngine": "no"
 }

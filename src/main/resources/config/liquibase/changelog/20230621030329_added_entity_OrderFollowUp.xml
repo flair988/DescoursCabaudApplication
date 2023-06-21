@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity OrderFollowUp.
+    -->
+    <changeSet id="20230621030329-1" author="jhipster">
+        <createTable tableName="order_follow_up">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="po_number" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="supplier" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="order_date" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="cate_gory" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="inspection_date" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="request_end_of_prod_date" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="total_amount" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="total_discount" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="dis_count_rate" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="regular_check" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="etd" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="atd" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="eta" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="updated_eta" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="document_status" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="custom_instruction" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="custom_inspection" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="deposit_payment_date" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="balance_of_total_payment_date" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="amount_deposit_payment" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="amount_payment" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="dc_member" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="comment" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="item_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="kingdee_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="parent_kingdee_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="qty" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="item_code" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="contract_end_of_prod_date" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="supplier_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20230621030329-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/order_follow_up.csv"
+                  separator=";"
+                  tableName="order_follow_up"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="po_number" type="string"/>
+            <column name="supplier" type="string"/>
+            <column name="order_date" type="string"/>
+            <column name="cate_gory" type="string"/>
+            <column name="inspection_date" type="string"/>
+            <column name="request_end_of_prod_date" type="string"/>
+            <column name="total_amount" type="string"/>
+            <column name="total_discount" type="string"/>
+            <column name="dis_count_rate" type="string"/>
+            <column name="regular_check" type="string"/>
+            <column name="etd" type="string"/>
+            <column name="atd" type="string"/>
+            <column name="eta" type="string"/>
+            <column name="updated_eta" type="string"/>
+            <column name="document_status" type="string"/>
+            <column name="custom_instruction" type="string"/>
+            <column name="custom_inspection" type="string"/>
+            <column name="deposit_payment_date" type="string"/>
+            <column name="balance_of_total_payment_date" type="string"/>
+            <column name="amount_deposit_payment" type="string"/>
+            <column name="amount_payment" type="string"/>
+            <column name="dc_member" type="string"/>
+            <column name="comment" type="string"/>
+            <column name="item_name" type="string"/>
+            <column name="kingdee_id" type="string"/>
+            <column name="parent_kingdee_id" type="string"/>
+            <column name="qty" type="string"/>
+            <column name="item_code" type="string"/>
+            <column name="contract_end_of_prod_date" type="string"/>
+            <column name="supplier_id" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

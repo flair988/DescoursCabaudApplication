@@ -1,5 +1,6 @@
 {
   "applications": "*",
+  "changelogDate": "20230621030331",
   "entityTableName": "supplier_qualification",
   "fields": [
     {
@@ -40,5 +41,6 @@
     }
   ],
   "name": "SupplierQualification",
-  "relationships": []
+  "relationships": [],
+  "searchEngine": "no"
 }

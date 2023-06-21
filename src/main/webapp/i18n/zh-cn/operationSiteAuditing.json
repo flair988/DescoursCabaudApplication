@@ -1,0 +1,41 @@
+{
+  "descoursCabaudApplicationApp": {
+    "operationSiteAuditing": {
+      "home": {
+        "title": "Operation Site Auditings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Operation Site Auditing",
+        "createOrEditLabel": "创建或编辑 Operation Site Auditing",
+        "notFound": "No Operation Site Auditings found"
+      },
+      "created": "Operation Site Auditing { param } 创建成功",
+      "updated": "Operation Site Auditing { param } 更新成功",
+      "deleted": "Operation Site Auditing { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Operation Site Auditing { id } 吗？"
+      },
+      "detail": {
+        "title": "Operation Site Auditing"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "cateGory": "Cate Gory",
+      "supplier": "Supplier",
+      "operationSite": "Operation Site",
+      "linkSupplierFactory": "Link Supplier Factory",
+      "typeOfSite": "Type Of Site",
+      "auditingTool": "Auditing Tool",
+      "auditingDate": "Auditing Date",
+      "csrResult": "Csr Result",
+      "qualityProductionResult": "Quality Production Result",
+      "businessLiabilityResult": "Business Liability Result",
+      "comments": "Comments",
+      "issueDate": "Issue Date",
+      "dueDate": "Due Date",
+      "closedDate": "Closed Date",
+      "closed": "Closed",
+      "status": "Status",
+      "capComments": "Cap Comments"
+    }
+  }
+}

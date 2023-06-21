@@ -1,6 +1,7 @@
 {
   "applications": "*",
-  "entityTableName": "group",
+  "changelogDate": "20230621030339",
+  "entityTableName": "jhi_group",
   "fields": [
     {
       "fieldName": "id",
@@ -28,5 +29,6 @@
     }
   ],
   "name": "Group",
-  "relationships": []
+  "relationships": [],
+  "searchEngine": "no"
 }

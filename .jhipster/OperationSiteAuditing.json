@@ -1,5 +1,6 @@
 {
   "applications": "*",
+  "changelogDate": "20230621030330",
   "entityTableName": "operation_site_auditing",
   "fields": [
     {
@@ -80,5 +81,6 @@
     }
   ],
   "name": "OperationSiteAuditing",
-  "relationships": []
+  "relationships": [],
+  "searchEngine": "no"
 }

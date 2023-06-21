@@ -1,0 +1,36 @@
+{
+  "descoursCabaudApplicationApp": {
+    "inspection": {
+      "home": {
+        "title": "Inspections",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Inspection",
+        "createOrEditLabel": "创建或编辑 Inspection",
+        "notFound": "No Inspections found"
+      },
+      "created": "Inspection { param } 创建成功",
+      "updated": "Inspection { param } 更新成功",
+      "deleted": "Inspection { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Inspection { id } 吗？"
+      },
+      "detail": {
+        "title": "Inspection"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "kingdeeId": "Kingdee Id",
+      "supplierName": "Supplier Name",
+      "email": "Email",
+      "inspectionDate": "Inspection Date",
+      "cateGory": "Cate Gory",
+      "qCResult": "Q C Result",
+      "docStatus": "Doc Status",
+      "inspectionType": "Inspection Type",
+      "inspectionBookingStatus": "Inspection Booking Status",
+      "inspectionEndDate": "Inspection End Date",
+      "supplierId": "Supplier Id",
+      "reportNumber": "Report Number"
+    }
+  }
+}

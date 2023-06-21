@@ -1,0 +1,52 @@
+{
+  "descoursCabaudApplicationApp": {
+    "item": {
+      "home": {
+        "title": "Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Item",
+        "createOrEditLabel": "创建或编辑 Item",
+        "notFound": "No Items found"
+      },
+      "created": "Item { param } 创建成功",
+      "updated": "Item { param } 更新成功",
+      "deleted": "Item { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Item { id } 吗？"
+      },
+      "detail": {
+        "title": "Item"
+      },
+      "id": "Id",
+      "itemStatus": "Item Status",
+      "itemFranceName": "Item France Name",
+      "kingdeeId": "Kingdee Id",
+      "itemName": "Item Name",
+      "codeag": "Codeag",
+      "technicalDocuments": "Technical Documents",
+      "certification": "Certification",
+      "opportunitySheet": "Opportunity Sheet",
+      "packingType": "Packing Type",
+      "salePackageImage": "Sale Package Image",
+      "cartonLengthMilimeter": "Carton Length Milimeter",
+      "cartonHeightMilimeter": "Carton Height Milimeter",
+      "barcode": "Barcode",
+      "cartonWeightKg": "Carton Weight Kg",
+      "cartonWeightGr": "Carton Weight Gr",
+      "cartonWidthMilimeter": "Carton Width Milimeter",
+      "productDescriptionAndFonctionalities": "Product Description And Fonctionalities",
+      "drawing": "Drawing",
+      "userManual": "User Manual",
+      "palletSize": "Pallet Size",
+      "typeOfMarketing": "Type Of Marketing",
+      "productPic": "Product Pic",
+      "label": "Label",
+      "comment": "Comment",
+      "productTaxonomy": "Product Taxonomy",
+      "netWeight": "Net Weight",
+      "grossWeight": "Gross Weight",
+      "unitOfWeight": "Unit Of Weight",
+      "cartonVolumeMilimeter": "Carton Volume Milimeter"
+    }
+  }
+}

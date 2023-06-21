@@ -48,6 +48,29 @@ public class CacheConfiguration {
             createCache(cm, com.mycompany.myapp.domain.User.class.getName());
             createCache(cm, com.mycompany.myapp.domain.Authority.class.getName());
             createCache(cm, com.mycompany.myapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.mycompany.myapp.domain.OPSiteQualification.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.PI.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.MondayUser.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.ProductFinished.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Supplier.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Item.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.PurchaseReturn.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.ProcessLog.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Quotation.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.OrderFollowUp.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.OperationSiteAuditing.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.SupplierQualification.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Uom.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.ForwarderBooking.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.ProductTaxmonomy.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.CommercialInvoice.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Forwarder.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Inspection.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.OperationSite.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Group.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.SalesDelivery.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Client.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.MondayColumn.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

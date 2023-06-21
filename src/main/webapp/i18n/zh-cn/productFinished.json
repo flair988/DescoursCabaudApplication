@@ -1,0 +1,33 @@
+{
+  "descoursCabaudApplicationApp": {
+    "productFinished": {
+      "home": {
+        "title": "Product Finisheds",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Product Finished",
+        "createOrEditLabel": "创建或编辑 Product Finished",
+        "notFound": "No Product Finisheds found"
+      },
+      "created": "Product Finished { param } 创建成功",
+      "updated": "Product Finished { param } 更新成功",
+      "deleted": "Product Finished { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Product Finished { id } 吗？"
+      },
+      "detail": {
+        "title": "Product Finished"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "kingdeeId": "Kingdee Id",
+      "supplier": "Supplier",
+      "supplierEmail": "Supplier Email",
+      "orderDate": "Order Date",
+      "cateGory": "Cate Gory",
+      "remark": "Remark",
+      "materialReceiptDate": "Material Receipt Date",
+      "docStatus": "Doc Status",
+      "supplierName": "Supplier Name"
+    }
+  }
+}

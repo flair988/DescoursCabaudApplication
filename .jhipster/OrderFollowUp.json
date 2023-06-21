@@ -1,5 +1,6 @@
 {
   "applications": "*",
+  "changelogDate": "20230621030329",
   "entityTableName": "order_follow_up",
   "fields": [
     {
@@ -128,5 +129,6 @@
     }
   ],
   "name": "OrderFollowUp",
-  "relationships": []
+  "relationships": [],
+  "searchEngine": "no"
 }

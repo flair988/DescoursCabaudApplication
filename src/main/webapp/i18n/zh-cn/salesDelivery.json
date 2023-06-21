@@ -1,0 +1,40 @@
+{
+  "descoursCabaudApplicationApp": {
+    "salesDelivery": {
+      "home": {
+        "title": "Sales Deliveries",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Sales Delivery",
+        "createOrEditLabel": "创建或编辑 Sales Delivery",
+        "notFound": "No Sales Deliveries found"
+      },
+      "created": "Sales Delivery { param } 创建成功",
+      "updated": "Sales Delivery { param } 更新成功",
+      "deleted": "Sales Delivery { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Sales Delivery { id } 吗？"
+      },
+      "detail": {
+        "title": "Sales Delivery"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "kingdeeId": "Kingdee Id",
+      "customer": "Customer",
+      "orderDate": "Order Date",
+      "loadingPort": "Loading Port",
+      "dischargePort": "Discharge Port",
+      "transportMode": "Transport Mode",
+      "incoterm": "Incoterm",
+      "forwarder": "Forwarder",
+      "eta": "Eta",
+      "etd": "Etd",
+      "containerType": "Container Type",
+      "containerSize": "Container Size",
+      "remark": "Remark",
+      "kingdeeUniqueId": "Kingdee Unique Id",
+      "docStatus": "Doc Status",
+      "cateGory": "Cate Gory"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "descoursCabaudApplicationApp": {
+    "commercialInvoice": {
+      "home": {
+        "title": "Commercial Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Commercial Invoice",
+        "createOrEditLabel": "Create or edit a Commercial Invoice",
+        "notFound": "No Commercial Invoices found"
+      },
+      "created": "A new Commercial Invoice is created with identifier { param }",
+      "updated": "A Commercial Invoice is updated with identifier { param }",
+      "deleted": "A Commercial Invoice is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Commercial Invoice { id }?"
+      },
+      "detail": {
+        "title": "Commercial Invoice"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "kingdeeId": "Kingdee Id",
+      "date": "Date",
+      "client": "Client",
+      "cateGory": "Cate Gory",
+      "totalPrice": "Total Price",
+      "currency": "Currency",
+      "remarks": "Remarks",
+      "clientId": "Client Id",
+      "docStatus": "Doc Status"
+    }
+  }
+}
