@@ -1,0 +1,409 @@
+
+entity Authority {
+	name String
+}
+
+entity Group {
+	id Long,
+    groupId Long,
+    groupNumber String,
+    parentId Long,
+    groupName String,
+    description String
+}
+
+entity Item {
+	id Long,
+    itemStatus String,
+    itemFranceName String,
+    kingdeeId String,
+    itemName String,
+    codeag String,
+    technicalDocuments String,
+    certification String,
+    opportunitySheet String,
+    packingType String,
+    salePackageImage String,
+    cartonLengthMilimeter String,
+    cartonHeightMilimeter String,
+    barcode String,
+    cartonWeightKg String,
+    cartonWeightGr String,
+    cartonWidthMilimeter String,
+    productDescriptionAndFonctionalities String,
+    drawing String,
+    userManual String,
+    palletSize String,
+    typeOfMarketing String,
+    productPic String,
+    label String,
+    comment String,
+    productTaxonomy String,
+    netWeight String,
+    grossWeight String,
+    unitOfWeight String,
+    cartonVolumeMilimeter String
+}
+
+entity MondayColumn {
+	id Long,
+    boardId String,
+    columnId String,
+    title String,
+    type String
+}
+
+entity MondayUser {
+	id Long,
+    mondayId Long,
+    name String,
+    email String,
+    url String
+}
+
+entity OperationSite {
+	id Long,
+	itemName String,
+    linkSupplierFactory String,
+    typeOfSite String,
+    contact String,
+    siteAddress String,
+    cateGory String,
+    country String,
+    kingdeeId String,
+    businessLicense String,
+    sasDate LocalDate,
+    iso900ValidUtil LocalDate,
+    iso14001ValidUtil LocalDate,
+    attributeLor String,
+    siteQualification String,
+    qualificationScore String,
+    pqvScore String,
+    pqvDate String,
+    pqvDecision String,
+    technicalAuditDate String,
+    technicalAuditScore String,
+    thirdRdPartyDate String,
+    thirdRdPartyScore String,
+    bopeDate String,
+    bopeScore String,
+    capRequired String
+}
+
+entity OrderFollowUp {
+	id Long,
+    poNumber String,
+    supplier String,
+    orderDate String,
+    cateGory String,
+    inspectionDate String,
+    requestEndOfProdDate String,
+    totalAmount String,
+    totalDiscount String,
+    disCountRate String,
+    regularCheck String,
+    etd String,
+    atd String,
+    eta String,
+    updatedEta String,
+    documentStatus String,
+    customInstruction String,
+    customInspection String,
+    depositPaymentDate String,
+    balanceOfTotalPaymentDate String,
+    amountDepositPayment String,
+    amountPayment String,
+    dcMember String,
+    comment String,
+    itemName String,
+    kingdeeId String,
+    parentKingdeeId String,
+    qty String,
+    itemCode String,
+    contractEndOfProdDate String,
+    supplierId String 
+}
+
+entity PI {
+	id Long,
+    itemName String,
+    poNumber String,
+    category String,
+    client String,
+    orderDate String,
+    requestedEndOfProdDate String,
+    countryOfOrigin String,
+    countryOfFinalDestination String,
+    consignee String,
+    carriageBy String,
+    termsOfDelivery String,
+    termsOfPayment String,
+    currency String,
+    remarks String,
+    kingdeeId String,
+    portOfDischarge String,
+    portOfLoading String,
+    docStatus String
+}
+
+entity ProcessLog {
+	id Long,
+    type String,
+    request String,
+    response String,
+    status String,
+    reason String,
+    processStartTime LocalDate,
+    processEndTime LocalDate
+}
+
+entity ProductTaxmonomy {
+	id Long,
+    itemId String,
+    kingdeeId String,
+    itemName String,
+    groupName String,
+    parentGroupName String,
+    subGroupName String,
+    description String
+}
+
+entity Supplier {
+	id Long,
+    client String,
+    category String,
+    subCategory String,
+    capStatus String,
+    supplierStatus String,
+    capStatus String,
+    qualificationScore String,
+    bopeScore String,
+    internalSupplierId String,
+    contact String,
+    contactPhoneNumber String,
+    contactEmailAddress String,
+    operationSite String,
+    address String,
+    website String,
+    relationStartingYear String,
+    businessLicense String,
+    rexOriginStatus String,
+    createDate LocalDate,
+    updateDate LocalDate,
+    item String,
+    subItems String,
+    date String,
+    kingdeeId String,
+    region String,
+    supplierType String,
+    remark String,
+    frenchName String
+}
+
+entity Uom {
+	id Long,
+    itemId String,
+    uom String,
+    uomGroup String,
+    description String,
+    subItems String,
+    parentItem String,
+    boardId String,
+    kingdeeId String
+}
+
+entity Client {
+	id Long,
+    itemId String,
+    itemName String,
+    boardId String,
+    subItems String,
+    kingdeeId String,
+    customerName String,
+    customerCode String,
+    customerFrenceName String,
+    comment String
+    
+}
+
+entity CommercialInvoice {
+	id Long,
+    itemName String,
+    kingdeeId String,
+    date String,
+    client String,
+    cateGory String,
+    totalPrice String,
+    currency String,
+    remarks String,
+    clientId String,
+    docStatus String
+}
+
+entity Forwarder {
+	id Long,
+    itemName String,
+    itemId String,
+    boardId String,
+    kingdeeId String,
+    contact String,
+    email String,
+    telephone String
+}
+
+entity ForwarderBooking {
+	id Long,
+    itemName String,
+    kingdeeId String,
+    customer String,
+    orderDate String,
+    forwarder String,
+    totalQty String,
+    loadingPort String,
+    dischargePort String,
+    containerType String,
+    containerSize String,
+    containerNumber String,
+    supplier String,
+    supplierEmail String,
+    eta String,
+    etd String,
+    transportMode String,
+    numberOfCartons String,
+    numberOfRef String,
+    totalVolume String,
+    totalWeight String,
+    remark String,
+    client String,
+    kingdeeUniqueId String
+
+}
+
+entity Inspection {
+	id Long,
+    itemName String,
+    kingdeeId String,
+    supplierName String,
+    email String,
+    inspectionDate String,
+    cateGory String,
+    QCResult String,
+    docStatus String,
+    inspectionType String,
+    inspectionBookingStatus String,
+    inspectionEndDate String,
+    supplierId String,
+    reportNumber String
+}
+
+entity ProductFinished {
+	id Long,
+    itemName String,
+    kingdeeId String,
+    supplier String,
+    supplierEmail String,
+    orderDate String,
+    cateGory String,
+    remark String,
+    materialReceiptDate String,
+    docStatus String,
+    supplierName String
+}
+
+entity SalesDelivery {
+	id Long,
+    itemName String,
+    kingdeeId String,
+    customer String,
+    orderDate String,
+    loadingPort String,
+    dischargePort String,
+    transportMode String,
+    incoterm String,
+    forwarder String,
+    eta String,
+    etd String,
+    containerType String,
+    containerSize String,
+    remark String,
+    kingdeeUniqueId String
+    docStatus String,
+    cateGory String
+}
+
+entity Quotation {
+    id Long,
+    itemName String,
+    quotationDate String,
+    inquiryDocNumber String,
+    docNo String,
+    docStatus String,
+    supplier String,
+    kingdeeId String
+}
+
+entity PurchaseReturn {
+    id Long,
+    itemName String,
+    kingdeeId String,
+    docNumber String,
+    supplier String,
+    supplierEmail String,
+    materialReturnDate String,
+    reasonForReturn String,
+    purchaseDept String,
+    remarks String,
+    docStatus String,
+    itemCode String,
+    supplierCode String
+}
+
+entity OperationSiteAuditing {
+    id Long,
+    itemName String,
+    cateGory String,
+    supplier String,
+    operationSite String,
+    linkSupplierFactory String,
+    typeOfSite String,
+    auditingTool String,
+    auditingDate LocalDate,
+    csrResult String,
+    qualityProductionResult String,
+    businessLiabilityResult String,
+    comments String,
+    issueDate LocalDate,
+    dueDate LocalDate,
+    closedDate LocalDate,
+    closed String,
+    status String,
+    capComments String
+}
+
+entity OPSiteQualification {
+    id Long,
+    itemName String,
+    cateGory String,
+    supplier String,
+    date LocalDate,
+    operationSite String,
+    attributedLoRForThisSite String,
+    siteQualificationStatus String,
+    csrResult String,
+    qualityProductionResult String,
+    businessLiabilityResult String,
+    comments String
+}
+
+entity SupplierQualification {
+    id Long,
+    itemName String,
+    cateGory String,
+    supplier String,
+    date LocalDate,
+    supplierStatus String,
+    evaluationStatus String,
+    businessLiabilityBopeScore String,
+    comments String
+}
+
