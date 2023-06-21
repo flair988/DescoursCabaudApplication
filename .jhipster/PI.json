@@ -1,0 +1,84 @@
+{
+  "applications": "*",
+  "entityTableName": "pi",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "itemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "poNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "category",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "client",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "orderDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "requestedEndOfProdDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "countryOfOrigin",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "countryOfFinalDestination",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "consignee",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "carriageBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "termsOfDelivery",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "termsOfPayment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "currency",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "remarks",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kingdeeId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "portOfDischarge",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "portOfLoading",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "docStatus",
+      "fieldType": "String"
+    }
+  ],
+  "name": "PI",
+  "relationships": []
+}

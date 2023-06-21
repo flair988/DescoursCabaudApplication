@@ -1,0 +1,44 @@
+{
+  "applications": "*",
+  "entityTableName": "supplier_qualification",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "itemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cateGory",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supplier",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "supplierStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "evaluationStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "businessLiabilityBopeScore",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comments",
+      "fieldType": "String"
+    }
+  ],
+  "name": "SupplierQualification",
+  "relationships": []
+}

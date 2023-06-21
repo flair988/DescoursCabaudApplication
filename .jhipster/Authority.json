@@ -1,0 +1,12 @@
+{
+  "applications": "*",
+  "entityTableName": "authority",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Authority",
+  "relationships": []
+}

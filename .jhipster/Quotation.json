@@ -1,0 +1,40 @@
+{
+  "applications": "*",
+  "entityTableName": "quotation",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "itemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "quotationDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "inquiryDocNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "docNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "docStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supplier",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kingdeeId",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Quotation",
+  "relationships": []
+}

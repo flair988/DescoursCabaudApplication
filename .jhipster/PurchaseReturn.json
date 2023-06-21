@@ -1,0 +1,60 @@
+{
+  "applications": "*",
+  "entityTableName": "purchase_return",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "itemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kingdeeId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "docNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supplier",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supplierEmail",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "materialReturnDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "reasonForReturn",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "purchaseDept",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "remarks",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "docStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "itemCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supplierCode",
+      "fieldType": "String"
+    }
+  ],
+  "name": "PurchaseReturn",
+  "relationships": []
+}

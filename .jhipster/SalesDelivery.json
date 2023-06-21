@@ -1,0 +1,80 @@
+{
+  "applications": "*",
+  "entityTableName": "sales_delivery",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "itemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kingdeeId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "customer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "orderDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "loadingPort",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dischargePort",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "transportMode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "incoterm",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "forwarder",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "eta",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "etd",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "containerType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "containerSize",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "remark",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kingdeeUniqueId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "docStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cateGory",
+      "fieldType": "String"
+    }
+  ],
+  "name": "SalesDelivery",
+  "relationships": []
+}

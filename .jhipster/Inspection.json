@@ -1,0 +1,64 @@
+{
+  "applications": "*",
+  "entityTableName": "inspection",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "itemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kingdeeId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supplierName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "inspectionDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cateGory",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qCResult",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "docStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "inspectionType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "inspectionBookingStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "inspectionEndDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supplierId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "reportNumber",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Inspection",
+  "relationships": []
+}

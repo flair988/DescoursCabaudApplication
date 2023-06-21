@@ -1,0 +1,120 @@
+{
+  "applications": "*",
+  "entityTableName": "supplier",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "client",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "category",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "subCategory",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "capStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supplierStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qualificationScore",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bopeScore",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "internalSupplierId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contact",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contactPhoneNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contactEmailAddress",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "operationSite",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "website",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "relationStartingYear",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "businessLicense",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "rexOriginStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updateDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "item",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "subItems",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kingdeeId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "region",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supplierType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "remark",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "frenchName",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Supplier",
+  "relationships": []
+}
