@@ -1,0 +1,41 @@
+{
+  "descoursCabaudApplicationApp": {
+    "pI": {
+      "home": {
+        "title": "PIS",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 PI",
+        "createOrEditLabel": "创建或编辑 PI",
+        "notFound": "No PIS found"
+      },
+      "created": "PI { param } 创建成功",
+      "updated": "PI { param } 更新成功",
+      "deleted": "PI { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 PI { id } 吗？"
+      },
+      "detail": {
+        "title": "PI"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "poNumber": "Po Number",
+      "category": "Category",
+      "client": "Client",
+      "orderDate": "Order Date",
+      "requestedEndOfProdDate": "Requested End Of Prod Date",
+      "countryOfOrigin": "Country Of Origin",
+      "countryOfFinalDestination": "Country Of Final Destination",
+      "consignee": "Consignee",
+      "carriageBy": "Carriage By",
+      "termsOfDelivery": "Terms Of Delivery",
+      "termsOfPayment": "Terms Of Payment",
+      "currency": "Currency",
+      "remarks": "Remarks",
+      "kingdeeId": "Kingdee Id",
+      "portOfDischarge": "Port Of Discharge",
+      "portOfLoading": "Port Of Loading",
+      "docStatus": "Doc Status"
+    }
+  }
+}

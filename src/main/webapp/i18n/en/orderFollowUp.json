@@ -1,0 +1,53 @@
+{
+  "descoursCabaudApplicationApp": {
+    "orderFollowUp": {
+      "home": {
+        "title": "Order Follow Ups",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Order Follow Up",
+        "createOrEditLabel": "Create or edit a Order Follow Up",
+        "notFound": "No Order Follow Ups found"
+      },
+      "created": "A new Order Follow Up is created with identifier { param }",
+      "updated": "A Order Follow Up is updated with identifier { param }",
+      "deleted": "A Order Follow Up is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Order Follow Up { id }?"
+      },
+      "detail": {
+        "title": "Order Follow Up"
+      },
+      "id": "Id",
+      "poNumber": "Po Number",
+      "supplier": "Supplier",
+      "orderDate": "Order Date",
+      "cateGory": "Cate Gory",
+      "inspectionDate": "Inspection Date",
+      "requestEndOfProdDate": "Request End Of Prod Date",
+      "totalAmount": "Total Amount",
+      "totalDiscount": "Total Discount",
+      "disCountRate": "Dis Count Rate",
+      "regularCheck": "Regular Check",
+      "etd": "Etd",
+      "atd": "Atd",
+      "eta": "Eta",
+      "updatedEta": "Updated Eta",
+      "documentStatus": "Document Status",
+      "customInstruction": "Custom Instruction",
+      "customInspection": "Custom Inspection",
+      "depositPaymentDate": "Deposit Payment Date",
+      "balanceOfTotalPaymentDate": "Balance Of Total Payment Date",
+      "amountDepositPayment": "Amount Deposit Payment",
+      "amountPayment": "Amount Payment",
+      "dcMember": "Dc Member",
+      "comment": "Comment",
+      "itemName": "Item Name",
+      "kingdeeId": "Kingdee Id",
+      "parentKingdeeId": "Parent Kingdee Id",
+      "qty": "Qty",
+      "itemCode": "Item Code",
+      "contractEndOfProdDate": "Contract End Of Prod Date",
+      "supplierId": "Supplier Id"
+    }
+  }
+}

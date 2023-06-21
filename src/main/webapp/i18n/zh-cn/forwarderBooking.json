@@ -1,0 +1,46 @@
+{
+  "descoursCabaudApplicationApp": {
+    "forwarderBooking": {
+      "home": {
+        "title": "Forwarder Bookings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Forwarder Booking",
+        "createOrEditLabel": "创建或编辑 Forwarder Booking",
+        "notFound": "No Forwarder Bookings found"
+      },
+      "created": "Forwarder Booking { param } 创建成功",
+      "updated": "Forwarder Booking { param } 更新成功",
+      "deleted": "Forwarder Booking { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Forwarder Booking { id } 吗？"
+      },
+      "detail": {
+        "title": "Forwarder Booking"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "kingdeeId": "Kingdee Id",
+      "customer": "Customer",
+      "orderDate": "Order Date",
+      "forwarder": "Forwarder",
+      "totalQty": "Total Qty",
+      "loadingPort": "Loading Port",
+      "dischargePort": "Discharge Port",
+      "containerType": "Container Type",
+      "containerSize": "Container Size",
+      "containerNumber": "Container Number",
+      "supplier": "Supplier",
+      "supplierEmail": "Supplier Email",
+      "eta": "Eta",
+      "etd": "Etd",
+      "transportMode": "Transport Mode",
+      "numberOfCartons": "Number Of Cartons",
+      "numberOfRef": "Number Of Ref",
+      "totalVolume": "Total Volume",
+      "totalWeight": "Total Weight",
+      "remark": "Remark",
+      "client": "Client",
+      "kingdeeUniqueId": "Kingdee Unique Id"
+    }
+  }
+}

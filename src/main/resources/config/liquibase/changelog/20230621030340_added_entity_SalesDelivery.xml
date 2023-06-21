@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity SalesDelivery.
+    -->
+    <changeSet id="20230621030340-1" author="jhipster">
+        <createTable tableName="sales_delivery">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="item_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="kingdee_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="customer" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="order_date" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="loading_port" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="discharge_port" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="transport_mode" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="incoterm" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="forwarder" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="eta" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="etd" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="container_type" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="container_size" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="remark" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="kingdee_unique_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="doc_status" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="cate_gory" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20230621030340-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/sales_delivery.csv"
+                  separator=";"
+                  tableName="sales_delivery"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="item_name" type="string"/>
+            <column name="kingdee_id" type="string"/>
+            <column name="customer" type="string"/>
+            <column name="order_date" type="string"/>
+            <column name="loading_port" type="string"/>
+            <column name="discharge_port" type="string"/>
+            <column name="transport_mode" type="string"/>
+            <column name="incoterm" type="string"/>
+            <column name="forwarder" type="string"/>
+            <column name="eta" type="string"/>
+            <column name="etd" type="string"/>
+            <column name="container_type" type="string"/>
+            <column name="container_size" type="string"/>
+            <column name="remark" type="string"/>
+            <column name="kingdee_unique_id" type="string"/>
+            <column name="doc_status" type="string"/>
+            <column name="cate_gory" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

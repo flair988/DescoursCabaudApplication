@@ -1,0 +1,28 @@
+{
+  "descoursCabaudApplicationApp": {
+    "group": {
+      "home": {
+        "title": "Groups",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Group",
+        "createOrEditLabel": "创建或编辑 Group",
+        "notFound": "No Groups found"
+      },
+      "created": "Group { param } 创建成功",
+      "updated": "Group { param } 更新成功",
+      "deleted": "Group { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Group { id } 吗？"
+      },
+      "detail": {
+        "title": "Group"
+      },
+      "id": "Id",
+      "groupId": "Group Id",
+      "groupNumber": "Group Number",
+      "parentId": "Parent Id",
+      "groupName": "Group Name",
+      "description": "Description"
+    }
+  }
+}

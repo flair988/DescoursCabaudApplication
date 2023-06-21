@@ -1,0 +1,50 @@
+{
+  "descoursCabaudApplicationApp": {
+    "supplier": {
+      "home": {
+        "title": "Suppliers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Supplier",
+        "createOrEditLabel": "创建或编辑 Supplier",
+        "notFound": "No Suppliers found"
+      },
+      "created": "Supplier { param } 创建成功",
+      "updated": "Supplier { param } 更新成功",
+      "deleted": "Supplier { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Supplier { id } 吗？"
+      },
+      "detail": {
+        "title": "Supplier"
+      },
+      "id": "Id",
+      "client": "Client",
+      "category": "Category",
+      "subCategory": "Sub Category",
+      "capStatus": "Cap Status",
+      "supplierStatus": "Supplier Status",
+      "qualificationScore": "Qualification Score",
+      "bopeScore": "Bope Score",
+      "internalSupplierId": "Internal Supplier Id",
+      "contact": "Contact",
+      "contactPhoneNumber": "Contact Phone Number",
+      "contactEmailAddress": "Contact Email Address",
+      "operationSite": "Operation Site",
+      "address": "Address",
+      "website": "Website",
+      "relationStartingYear": "Relation Starting Year",
+      "businessLicense": "Business License",
+      "rexOriginStatus": "Rex Origin Status",
+      "createDate": "Create Date",
+      "updateDate": "Update Date",
+      "item": "Item",
+      "subItems": "Sub Items",
+      "date": "Date",
+      "kingdeeId": "Kingdee Id",
+      "region": "Region",
+      "supplierType": "Supplier Type",
+      "remark": "Remark",
+      "frenchName": "French Name"
+    }
+  }
+}

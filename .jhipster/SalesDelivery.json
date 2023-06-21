@@ -1,5 +1,6 @@
 {
   "applications": "*",
+  "changelogDate": "20230621030340",
   "entityTableName": "sales_delivery",
   "fields": [
     {
@@ -76,5 +77,6 @@
     }
   ],
   "name": "SalesDelivery",
-  "relationships": []
+  "relationships": [],
+  "searchEngine": "no"
 }

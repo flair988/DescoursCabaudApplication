@@ -1,0 +1,31 @@
+{
+  "descoursCabaudApplicationApp": {
+    "supplierQualification": {
+      "home": {
+        "title": "Supplier Qualifications",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Supplier Qualification",
+        "createOrEditLabel": "创建或编辑 Supplier Qualification",
+        "notFound": "No Supplier Qualifications found"
+      },
+      "created": "Supplier Qualification { param } 创建成功",
+      "updated": "Supplier Qualification { param } 更新成功",
+      "deleted": "Supplier Qualification { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Supplier Qualification { id } 吗？"
+      },
+      "detail": {
+        "title": "Supplier Qualification"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "cateGory": "Cate Gory",
+      "supplier": "Supplier",
+      "date": "Date",
+      "supplierStatus": "Supplier Status",
+      "evaluationStatus": "Evaluation Status",
+      "businessLiabilityBopeScore": "Business Liability Bope Score",
+      "comments": "Comments"
+    }
+  }
+}

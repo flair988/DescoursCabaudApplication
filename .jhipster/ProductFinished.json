@@ -1,5 +1,6 @@
 {
   "applications": "*",
+  "changelogDate": "20230621030323",
   "entityTableName": "product_finished",
   "fields": [
     {
@@ -48,5 +49,6 @@
     }
   ],
   "name": "ProductFinished",
-  "relationships": []
+  "relationships": [],
+  "searchEngine": "no"
 }

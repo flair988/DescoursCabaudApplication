@@ -1,0 +1,27 @@
+{
+  "descoursCabaudApplicationApp": {
+    "mondayColumn": {
+      "home": {
+        "title": "Monday Columns",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Monday Column",
+        "createOrEditLabel": "创建或编辑 Monday Column",
+        "notFound": "No Monday Columns found"
+      },
+      "created": "Monday Column { param } 创建成功",
+      "updated": "Monday Column { param } 更新成功",
+      "deleted": "Monday Column { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Monday Column { id } 吗？"
+      },
+      "detail": {
+        "title": "Monday Column"
+      },
+      "id": "Id",
+      "boardId": "Board Id",
+      "columnId": "Column Id",
+      "title": "Title",
+      "type": "Type"
+    }
+  }
+}

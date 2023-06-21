@@ -1,5 +1,6 @@
 {
   "applications": "*",
+  "changelogDate": "20230621030342",
   "entityTableName": "monday_column",
   "fields": [
     {
@@ -24,5 +25,6 @@
     }
   ],
   "name": "MondayColumn",
-  "relationships": []
+  "relationships": [],
+  "searchEngine": "no"
 }

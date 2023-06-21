@@ -1,0 +1,27 @@
+{
+  "descoursCabaudApplicationApp": {
+    "mondayColumn": {
+      "home": {
+        "title": "Monday Columns",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Monday Column",
+        "createOrEditLabel": "Create or edit a Monday Column",
+        "notFound": "No Monday Columns found"
+      },
+      "created": "A new Monday Column is created with identifier { param }",
+      "updated": "A Monday Column is updated with identifier { param }",
+      "deleted": "A Monday Column is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Monday Column { id }?"
+      },
+      "detail": {
+        "title": "Monday Column"
+      },
+      "id": "Id",
+      "boardId": "Board Id",
+      "columnId": "Column Id",
+      "title": "Title",
+      "type": "Type"
+    }
+  }
+}

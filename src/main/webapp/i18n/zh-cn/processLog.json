@@ -1,0 +1,30 @@
+{
+  "descoursCabaudApplicationApp": {
+    "processLog": {
+      "home": {
+        "title": "Process Logs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Process Log",
+        "createOrEditLabel": "创建或编辑 Process Log",
+        "notFound": "No Process Logs found"
+      },
+      "created": "Process Log { param } 创建成功",
+      "updated": "Process Log { param } 更新成功",
+      "deleted": "Process Log { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Process Log { id } 吗？"
+      },
+      "detail": {
+        "title": "Process Log"
+      },
+      "id": "Id",
+      "type": "Type",
+      "request": "Request",
+      "response": "Response",
+      "status": "Status",
+      "reason": "Reason",
+      "processStartTime": "Process Start Time",
+      "processEndTime": "Process End Time"
+    }
+  }
+}

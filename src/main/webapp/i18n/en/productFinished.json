@@ -1,0 +1,33 @@
+{
+  "descoursCabaudApplicationApp": {
+    "productFinished": {
+      "home": {
+        "title": "Product Finisheds",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Product Finished",
+        "createOrEditLabel": "Create or edit a Product Finished",
+        "notFound": "No Product Finisheds found"
+      },
+      "created": "A new Product Finished is created with identifier { param }",
+      "updated": "A Product Finished is updated with identifier { param }",
+      "deleted": "A Product Finished is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Product Finished { id }?"
+      },
+      "detail": {
+        "title": "Product Finished"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "kingdeeId": "Kingdee Id",
+      "supplier": "Supplier",
+      "supplierEmail": "Supplier Email",
+      "orderDate": "Order Date",
+      "cateGory": "Cate Gory",
+      "remark": "Remark",
+      "materialReceiptDate": "Material Receipt Date",
+      "docStatus": "Doc Status",
+      "supplierName": "Supplier Name"
+    }
+  }
+}

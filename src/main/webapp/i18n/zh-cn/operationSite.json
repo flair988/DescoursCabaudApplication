@@ -1,0 +1,48 @@
+{
+  "descoursCabaudApplicationApp": {
+    "operationSite": {
+      "home": {
+        "title": "Operation Sites",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Operation Site",
+        "createOrEditLabel": "创建或编辑 Operation Site",
+        "notFound": "No Operation Sites found"
+      },
+      "created": "Operation Site { param } 创建成功",
+      "updated": "Operation Site { param } 更新成功",
+      "deleted": "Operation Site { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Operation Site { id } 吗？"
+      },
+      "detail": {
+        "title": "Operation Site"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "linkSupplierFactory": "Link Supplier Factory",
+      "typeOfSite": "Type Of Site",
+      "contact": "Contact",
+      "siteAddress": "Site Address",
+      "cateGory": "Cate Gory",
+      "country": "Country",
+      "kingdeeId": "Kingdee Id",
+      "businessLicense": "Business License",
+      "sasDate": "Sas Date",
+      "iso900ValidUtil": "Iso 900 Valid Util",
+      "iso14001ValidUtil": "Iso 14001 Valid Util",
+      "attributeLor": "Attribute Lor",
+      "siteQualification": "Site Qualification",
+      "qualificationScore": "Qualification Score",
+      "pqvScore": "Pqv Score",
+      "pqvDate": "Pqv Date",
+      "pqvDecision": "Pqv Decision",
+      "technicalAuditDate": "Technical Audit Date",
+      "technicalAuditScore": "Technical Audit Score",
+      "thirdRdPartyDate": "Third Rd Party Date",
+      "thirdRdPartyScore": "Third Rd Party Score",
+      "bopeDate": "Bope Date",
+      "bopeScore": "Bope Score",
+      "capRequired": "Cap Required"
+    }
+  }
+}

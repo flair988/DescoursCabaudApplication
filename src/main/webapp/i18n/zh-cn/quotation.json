@@ -1,0 +1,30 @@
+{
+  "descoursCabaudApplicationApp": {
+    "quotation": {
+      "home": {
+        "title": "Quotations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Quotation",
+        "createOrEditLabel": "创建或编辑 Quotation",
+        "notFound": "No Quotations found"
+      },
+      "created": "Quotation { param } 创建成功",
+      "updated": "Quotation { param } 更新成功",
+      "deleted": "Quotation { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Quotation { id } 吗？"
+      },
+      "detail": {
+        "title": "Quotation"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "quotationDate": "Quotation Date",
+      "inquiryDocNumber": "Inquiry Doc Number",
+      "docNo": "Doc No",
+      "docStatus": "Doc Status",
+      "supplier": "Supplier",
+      "kingdeeId": "Kingdee Id"
+    }
+  }
+}

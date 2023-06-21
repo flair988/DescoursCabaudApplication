@@ -1,0 +1,27 @@
+{
+  "descoursCabaudApplicationApp": {
+    "mondayUser": {
+      "home": {
+        "title": "Monday Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Monday User",
+        "createOrEditLabel": "创建或编辑 Monday User",
+        "notFound": "No Monday Users found"
+      },
+      "created": "Monday User { param } 创建成功",
+      "updated": "Monday User { param } 更新成功",
+      "deleted": "Monday User { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Monday User { id } 吗？"
+      },
+      "detail": {
+        "title": "Monday User"
+      },
+      "id": "Id",
+      "mondayId": "Monday Id",
+      "name": "Name",
+      "email": "Email",
+      "url": "Url"
+    }
+  }
+}

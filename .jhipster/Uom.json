@@ -1,5 +1,6 @@
 {
   "applications": "*",
+  "changelogDate": "20230621030332",
   "entityTableName": "uom",
   "fields": [
     {
@@ -40,5 +41,6 @@
     }
   ],
   "name": "Uom",
-  "relationships": []
+  "relationships": [],
+  "searchEngine": "no"
 }

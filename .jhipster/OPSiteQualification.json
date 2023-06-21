@@ -1,5 +1,6 @@
 {
   "applications": "*",
+  "changelogDate": "20230621030320",
   "entityTableName": "op_site_qualification",
   "fields": [
     {
@@ -52,5 +53,6 @@
     }
   ],
   "name": "OPSiteQualification",
-  "relationships": []
+  "relationships": [],
+  "searchEngine": "no"
 }

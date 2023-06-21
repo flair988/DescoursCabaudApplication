@@ -1,0 +1,48 @@
+{
+  "descoursCabaudApplicationApp": {
+    "operationSite": {
+      "home": {
+        "title": "Operation Sites",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Operation Site",
+        "createOrEditLabel": "Create or edit a Operation Site",
+        "notFound": "No Operation Sites found"
+      },
+      "created": "A new Operation Site is created with identifier { param }",
+      "updated": "A Operation Site is updated with identifier { param }",
+      "deleted": "A Operation Site is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Operation Site { id }?"
+      },
+      "detail": {
+        "title": "Operation Site"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "linkSupplierFactory": "Link Supplier Factory",
+      "typeOfSite": "Type Of Site",
+      "contact": "Contact",
+      "siteAddress": "Site Address",
+      "cateGory": "Cate Gory",
+      "country": "Country",
+      "kingdeeId": "Kingdee Id",
+      "businessLicense": "Business License",
+      "sasDate": "Sas Date",
+      "iso900ValidUtil": "Iso 900 Valid Util",
+      "iso14001ValidUtil": "Iso 14001 Valid Util",
+      "attributeLor": "Attribute Lor",
+      "siteQualification": "Site Qualification",
+      "qualificationScore": "Qualification Score",
+      "pqvScore": "Pqv Score",
+      "pqvDate": "Pqv Date",
+      "pqvDecision": "Pqv Decision",
+      "technicalAuditDate": "Technical Audit Date",
+      "technicalAuditScore": "Technical Audit Score",
+      "thirdRdPartyDate": "Third Rd Party Date",
+      "thirdRdPartyScore": "Third Rd Party Score",
+      "bopeDate": "Bope Date",
+      "bopeScore": "Bope Score",
+      "capRequired": "Cap Required"
+    }
+  }
+}

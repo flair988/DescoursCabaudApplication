@@ -1,5 +1,6 @@
 {
   "applications": "*",
+  "changelogDate": "20230621030335",
   "entityTableName": "commercial_invoice",
   "fields": [
     {
@@ -48,5 +49,6 @@
     }
   ],
   "name": "CommercialInvoice",
-  "relationships": []
+  "relationships": [],
+  "searchEngine": "no"
 }

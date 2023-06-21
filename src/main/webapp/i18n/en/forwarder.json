@@ -1,0 +1,30 @@
+{
+  "descoursCabaudApplicationApp": {
+    "forwarder": {
+      "home": {
+        "title": "Forwarders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Forwarder",
+        "createOrEditLabel": "Create or edit a Forwarder",
+        "notFound": "No Forwarders found"
+      },
+      "created": "A new Forwarder is created with identifier { param }",
+      "updated": "A Forwarder is updated with identifier { param }",
+      "deleted": "A Forwarder is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Forwarder { id }?"
+      },
+      "detail": {
+        "title": "Forwarder"
+      },
+      "id": "Id",
+      "itemName": "Item Name",
+      "itemId": "Item Id",
+      "boardId": "Board Id",
+      "kingdeeId": "Kingdee Id",
+      "contact": "Contact",
+      "email": "Email",
+      "telephone": "Telephone"
+    }
+  }
+}

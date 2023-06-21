@@ -1,0 +1,53 @@
+{
+  "descoursCabaudApplicationApp": {
+    "orderFollowUp": {
+      "home": {
+        "title": "Order Follow Ups",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Order Follow Up",
+        "createOrEditLabel": "创建或编辑 Order Follow Up",
+        "notFound": "No Order Follow Ups found"
+      },
+      "created": "Order Follow Up { param } 创建成功",
+      "updated": "Order Follow Up { param } 更新成功",
+      "deleted": "Order Follow Up { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Order Follow Up { id } 吗？"
+      },
+      "detail": {
+        "title": "Order Follow Up"
+      },
+      "id": "Id",
+      "poNumber": "Po Number",
+      "supplier": "Supplier",
+      "orderDate": "Order Date",
+      "cateGory": "Cate Gory",
+      "inspectionDate": "Inspection Date",
+      "requestEndOfProdDate": "Request End Of Prod Date",
+      "totalAmount": "Total Amount",
+      "totalDiscount": "Total Discount",
+      "disCountRate": "Dis Count Rate",
+      "regularCheck": "Regular Check",
+      "etd": "Etd",
+      "atd": "Atd",
+      "eta": "Eta",
+      "updatedEta": "Updated Eta",
+      "documentStatus": "Document Status",
+      "customInstruction": "Custom Instruction",
+      "customInspection": "Custom Inspection",
+      "depositPaymentDate": "Deposit Payment Date",
+      "balanceOfTotalPaymentDate": "Balance Of Total Payment Date",
+      "amountDepositPayment": "Amount Deposit Payment",
+      "amountPayment": "Amount Payment",
+      "dcMember": "Dc Member",
+      "comment": "Comment",
+      "itemName": "Item Name",
+      "kingdeeId": "Kingdee Id",
+      "parentKingdeeId": "Parent Kingdee Id",
+      "qty": "Qty",
+      "itemCode": "Item Code",
+      "contractEndOfProdDate": "Contract End Of Prod Date",
+      "supplierId": "Supplier Id"
+    }
+  }
+}

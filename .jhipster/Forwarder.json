@@ -1,5 +1,6 @@
 {
   "applications": "*",
+  "changelogDate": "20230621030336",
   "entityTableName": "forwarder",
   "fields": [
     {
@@ -36,5 +37,6 @@
     }
   ],
   "name": "Forwarder",
-  "relationships": []
+  "relationships": [],
+  "searchEngine": "no"
 }

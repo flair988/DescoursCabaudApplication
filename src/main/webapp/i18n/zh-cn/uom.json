@@ -1,0 +1,31 @@
+{
+  "descoursCabaudApplicationApp": {
+    "uom": {
+      "home": {
+        "title": "Uoms",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Uom",
+        "createOrEditLabel": "创建或编辑 Uom",
+        "notFound": "No Uoms found"
+      },
+      "created": "Uom { param } 创建成功",
+      "updated": "Uom { param } 更新成功",
+      "deleted": "Uom { param } 删除成功",
+      "delete": {
+        "question": "你确定要删除 Uom { id } 吗？"
+      },
+      "detail": {
+        "title": "Uom"
+      },
+      "id": "Id",
+      "itemId": "Item Id",
+      "uom": "Uom",
+      "uomGroup": "Uom Group",
+      "description": "Description",
+      "subItems": "Sub Items",
+      "parentItem": "Parent Item",
+      "boardId": "Board Id",
+      "kingdeeId": "Kingdee Id"
+    }
+  }
+}

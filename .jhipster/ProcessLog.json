@@ -1,5 +1,6 @@
 {
   "applications": "*",
+  "changelogDate": "20230621030327",
   "entityTableName": "process_log",
   "fields": [
     {
@@ -36,5 +37,6 @@
     }
   ],
   "name": "ProcessLog",
-  "relationships": []
+  "relationships": [],
+  "searchEngine": "no"
 }

@@ -1,0 +1,30 @@
+{
+  "descoursCabaudApplicationApp": {
+    "productTaxmonomy": {
+      "home": {
+        "title": "Product Taxmonomies",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Product Taxmonomy",
+        "createOrEditLabel": "Create or edit a Product Taxmonomy",
+        "notFound": "No Product Taxmonomies found"
+      },
+      "created": "A new Product Taxmonomy is created with identifier { param }",
+      "updated": "A Product Taxmonomy is updated with identifier { param }",
+      "deleted": "A Product Taxmonomy is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Product Taxmonomy { id }?"
+      },
+      "detail": {
+        "title": "Product Taxmonomy"
+      },
+      "id": "Id",
+      "itemId": "Item Id",
+      "kingdeeId": "Kingdee Id",
+      "itemName": "Item Name",
+      "groupName": "Group Name",
+      "parentGroupName": "Parent Group Name",
+      "subGroupName": "Sub Group Name",
+      "description": "Description"
+    }
+  }
+}
