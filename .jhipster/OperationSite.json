@@ -1,0 +1,112 @@
+{
+  "applications": "*",
+  "entityTableName": "operation_site",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "itemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "linkSupplierFactory",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeOfSite",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contact",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "siteAddress",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cateGory",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "country",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kingdeeId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "businessLicense",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sasDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "iso900ValidUtil",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "iso14001ValidUtil",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "attributeLor",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "siteQualification",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qualificationScore",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "pqvScore",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "pqvDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "pqvDecision",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "technicalAuditDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "technicalAuditScore",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "thirdRdPartyDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "thirdRdPartyScore",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bopeDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bopeScore",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "capRequired",
+      "fieldType": "String"
+    }
+  ],
+  "name": "OperationSite",
+  "relationships": []
+}

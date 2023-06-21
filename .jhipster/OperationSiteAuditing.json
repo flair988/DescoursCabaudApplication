@@ -1,0 +1,84 @@
+{
+  "applications": "*",
+  "entityTableName": "operation_site_auditing",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "itemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cateGory",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supplier",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "operationSite",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "linkSupplierFactory",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeOfSite",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "auditingTool",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "auditingDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "csrResult",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qualityProductionResult",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "businessLiabilityResult",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comments",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "issueDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dueDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "closedDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "closed",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "capComments",
+      "fieldType": "String"
+    }
+  ],
+  "name": "OperationSiteAuditing",
+  "relationships": []
+}

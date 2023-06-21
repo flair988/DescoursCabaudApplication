@@ -1,0 +1,128 @@
+{
+  "applications": "*",
+  "entityTableName": "item",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "itemStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "itemFranceName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kingdeeId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "itemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeag",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "technicalDocuments",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "certification",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "opportunitySheet",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "packingType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "salePackageImage",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cartonLengthMilimeter",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cartonHeightMilimeter",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "barcode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cartonWeightKg",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cartonWeightGr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cartonWidthMilimeter",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "productDescriptionAndFonctionalities",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "drawing",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "userManual",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "palletSize",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeOfMarketing",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "productPic",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "label",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "productTaxonomy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "netWeight",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "grossWeight",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "unitOfWeight",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cartonVolumeMilimeter",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Item",
+  "relationships": []
+}

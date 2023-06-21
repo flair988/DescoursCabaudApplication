@@ -1,0 +1,132 @@
+{
+  "applications": "*",
+  "entityTableName": "order_follow_up",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "poNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supplier",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "orderDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cateGory",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "inspectionDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "requestEndOfProdDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "totalAmount",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "totalDiscount",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "disCountRate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "regularCheck",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "etd",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "atd",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "eta",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updatedEta",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "documentStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "customInstruction",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "customInspection",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "depositPaymentDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "balanceOfTotalPaymentDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "amountDepositPayment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "amountPayment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dcMember",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "itemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kingdeeId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "parentKingdeeId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qty",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "itemCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contractEndOfProdDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supplierId",
+      "fieldType": "String"
+    }
+  ],
+  "name": "OrderFollowUp",
+  "relationships": []
+}

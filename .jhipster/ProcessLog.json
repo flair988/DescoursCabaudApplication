@@ -1,0 +1,40 @@
+{
+  "applications": "*",
+  "entityTableName": "process_log",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "request",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "response",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "reason",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "processStartTime",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "processEndTime",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "ProcessLog",
+  "relationships": []
+}

@@ -1,0 +1,56 @@
+{
+  "applications": "*",
+  "entityTableName": "op_site_qualification",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "itemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cateGory",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supplier",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "operationSite",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "attributedLoRForThisSite",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "siteQualificationStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "csrResult",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qualityProductionResult",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "businessLiabilityResult",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comments",
+      "fieldType": "String"
+    }
+  ],
+  "name": "OPSiteQualification",
+  "relationships": []
+}

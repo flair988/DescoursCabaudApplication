@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "entityTableName": "monday_column",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "boardId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "columnId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "String"
+    }
+  ],
+  "name": "MondayColumn",
+  "relationships": []
+}

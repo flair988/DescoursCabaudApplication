@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "entityTableName": "client",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "itemId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "itemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "boardId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "subItems",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kingdeeId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "customerName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "customerCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "customerFrenceName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Client",
+  "relationships": []
+}
